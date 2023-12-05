@@ -34,7 +34,7 @@ while True:
             print("Invalid, please Enter words or Letters")
     try:
         answer = input("Who is the CEO of Google?\n")
-        if "Larry" in answer.title():
+        if "Sundar Pichai" in answer.title():
                 print("correct")
                 score +=1
         else:
@@ -93,7 +93,7 @@ while True:
     except(ValueError):
             print("Invalid, please Enter words or Letters")
 
-    print(" you got " + str(score/10*100) + "%")
+    print(" you got " + str(score/8*100) + "%")
     score= int(score)
     if score == 50:
             print("Good jod")
